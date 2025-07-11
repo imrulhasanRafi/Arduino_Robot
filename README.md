@@ -30,18 +30,18 @@ An intelligent, Arduino-based robotic system designed to navigate environments a
 
 ## ⚙️ System Workflow
 
-1.  **Obstacle Detection**
-    * **Ultrasonic Sensor (HC-SR04):** Measures distance to objects in front of the robot.
-    * **Action:**
-        * If the path is clear → Robot moves forward
-        * If an obstacle is detected → Robot stops or turns based on programmed logic
+1. **Obstacle Detection**
+   - **Ultrasonic Sensor (HC-SR04):** Measures distance to objects in front of the robot.
+   - **Action:**
+     - If the path is clear → Robot moves forward  
+     - If an obstacle is detected → Robot stops or turns based on programmed logic
 
-2.  **Movement Control**
-    * **DC Motors:** Controlled via the **Motor Driver Shield** to enable navigation.
-    * **Servo Motor:** Used for additional movements, adjustable via the shield.
+2. **Movement Control**
+   - **DC Motors:** Controlled via the **Motor Driver Shield** to enable navigation.  
+   - **Servo Motor:** Used for additional movements, adjustable via the shield.
 
-3.  **Power Management**
-    * **7.4-9V Battery:** Supplies power to the **Motor Driver Shield**, which distributes it to motors and sensors.
+3. **Power Management**
+   - **7.4–9V Battery:** Supplies power to the **Motor Driver Shield**, which distributes it to motors and sensors.
 
 ---
 
@@ -50,24 +50,23 @@ An intelligent, Arduino-based robotic system designed to navigate environments a
 ### 1. Prerequisites
 
 #### Hardware
-
-* Arduino Uno
-* Ultrasonic Sensor (HC-SR04)
-* 2 DC Motors
-* Servo Motor
-* Motor Driver Shield (compatible with Arduino)
-* 7.4-9V Battery Pack
-* Jumper Wires
-* Breadboard (optional)
+- Arduino Uno  
+- Ultrasonic Sensor (HC-SR04)  
+- 2 DC Motors  
+- Servo Motor  
+- Motor Driver Shield (compatible with Arduino)  
+- 7.4–9V Battery Pack  
+- Jumper Wires  
+- Breadboard (optional)  
 
 #### Software
+- Arduino IDE  
 
-* Arduino IDE
+---
 
 ### 2. Setup
 
-### 1. Clone the Repository
-
+#### 1. Clone the Repository
 ```bash
 git clone https://github.com/Arduino_Robot
 ```
