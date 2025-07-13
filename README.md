@@ -1,4 +1,4 @@
-# 🤖 Arduino Robot
+# Arduino Robot 🤖
 
 An intelligent, Arduino-based robotic system designed to navigate environments autonomously using Arduino Uno, Ultrasonic Sensor (HC-SR04), DC Motors, and a Servo Motor. This system detects obstacles and moves seamlessly in dynamic environments.
 
